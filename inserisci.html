@@ -6,6 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="risultato.php" method="post">
+        ID Recensione:<br>
+        <input type="number" name="recensione"><br>
+        Aggiornare/Eliminare:<br>
+        <input type="radio" name="modifica" value="aggiorna">aggiorna<br>
+        <input type="radio" name="modifica" value="elimina">elimina<br>
+        Voto:<br>
+        <input type="number" name="voto" min="1" max="5"><br>
+        <input type="submit">
+    </form>
 </body>
 </html>
